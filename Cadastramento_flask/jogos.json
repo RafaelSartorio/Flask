@@ -1,13 +1,13 @@
 [
     {
         "nome": "God of War (2018)",
-        "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLyoWLSArRUpS_nkUTOsoJwKdTanS-MCYl8TcLwyjzLg&s=10",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/8/82/God_of_War_2018_capa.png",
         "sinopse": "Kratos vive agora no reino dos deuses e monstros nórdicos. Ao lado de seu filho Atreus, ele deve se aventurar por reinos brutais para cumprir uma promessa pessoal e espalhar as cinzas de sua falecida esposa no pico mais alto de todos os reinos.",
         "conquistas": [
             {
                 "nome_trofeu": "Pai e Filho",
                 "descricao": "Obtenha todos os outros troféus.",
-                "dica": "Essa é a Platina! Você precisa conquistar todos os outros 36 troféus do jogo para desbloqueá-la."
+                "dica": "Esta é a Platina! Você precisa conquistar todos os outros 36 troféus do jogo para desbloqueá-la."
             },
             {
                 "nome_trofeu": "A Jornada Começa",
@@ -18,7 +18,7 @@
     },
     {
         "nome": "The Witcher 3: Wild Hunt",
-        "capa": "https://www.google.com/imgres?q=the%20witcher%203capa%20&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fpt%2F0%2F06%2FTW3_Wild_Hunt.png&imgrefurl=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FThe_Witcher_3%3A_Wild_Hunt&docid=5bQuL0vuwqVD0M&tbnid=kGNG9sJo4Ln1RM&vet=12ahUKEwipjpKN_7GVAxWdGbkGHeGiFd0QnPAOegUIrgEQAA..i&w=400&h=500&hcb=2&ved=2ahUKEwipjpKN_7GVAxWdGbkGHeGiFd0QnPAOegUIrgEQAA",
+        "capa": "https://store-images.s-microsoft.com/image/apps.53717.65858607118306853.39ed2a08-df0d-4ae1-aee0-c66ffb783a34.80ba72da-abfb-4af6-81f2-a443d12fb870",
         "sinopse": "Geralt de Rívia, um caçador de monstros, procura sua filha adotiva Ciri, que está fugindo da temível Caçada Selvagem através de reinos devastados pela guerra.",
         "conquistas": [
             {
@@ -30,6 +30,193 @@
                 "nome_trofeu": "Passou no Teste",
                 "descricao": "Conclua o jogo na dificuldade 'Marcha da Morte'.",
                 "dica": "Sempre use óleos nas lâminas e abuse da esquiva lateral em vez do rolamento."
+            }
+        ]
+    },
+    {
+        "nome": "God of War Ragnarök",
+        "capa": "https://psxbrasil.com.br/wp-content/uploads/2025/01/logo-29.png",
+        "sinopse": "O Fimbulwinter está a avançar. Kratos e Atreus têm de viajar pelos Nove Reinos em busca de respostas enquanto as forças de Asgard se preparam para uma batalha profetizada que destruirá o mundo.",
+        "conquistas": [
+            {
+                "nome_trofeu": "O Urso e o Lobo",
+                "descricao": "Colete todos os troféus.",
+                "dica": "Troféu de Platina. Desbloqueia automaticamente ao conseguir todos os outros 35 troféus do jogo."
+            },
+            {
+                "nome_trofeu": "Um Florescer Floral",
+                "descricao": "Colete uma flor de cada um dos Nove Reinos.",
+                "dica": "Faz parte do favor 'Nove Reinos em Flor'. Você precisa colher as 9 flores que estão espalhadas pelos reinos. Algumas só ficam acessíveis após terminar a história principal."
+            },
+            {
+                "nome_trofeu": "O Bibliotecário",
+                "descricao": "Colete todos os Livros.",
+                "dica": "Encontre todos os 14 Poemas de Kvasir espalhados pelos mapas. Eles brilham com uma aura roxa no chão."
+            },
+            {
+                "nome_trofeu": "O Curador",
+                "descricao": "Colete todas as Páginas Perdidas.",
+                "dica": "Encontre as 4 Páginas Perdidas (pergaminhos) para que o Lunda possa forjar os Punhos de Espada Relíquia."
+            },
+            {
+                "nome_trofeu": "Esparta S.A.",
+                "descricao": "Obtenha todos os conjuntos de Armadura.",
+                "dica": "Você só precisa fabricar pelo menos uma peça de peito, braço e cintura de qualquer conjunto de nível alto."
+            },
+            {
+                "nome_trofeu": "Como Tudo Começou",
+                "descricao": "Equipe um Encantamento.",
+                "dica": "Basta colocar qualquer amuleto ou joia no espaço de encantamentos do Amuleto de Yggdrasil."
+            },
+            {
+                "nome_trofeu": "Polimento Perfeito",
+                "descricao": "Melhore uma peça de armadura.",
+                "dica": "Vá a uma loja de Brok ou Sindri e suba o nível de qualquer armadura gastando materiais."
+            },
+            {
+                "nome_trofeu": "Ragnarök",
+                "descricao": "Conclua a história principal.",
+                "dica": "Troféu automático relacionado à campanha principal. Desbloqueado após derrotar o chefe final e assistir aos créditos."
+            },
+            {
+                "nome_trofeu": "Grave Erro",
+                "descricao": "Derrote o Rei Hrólf Kraki.",
+                "dica": "Você precisa derrotar todos os 12 Berserkers nas suas respectivas lápides para poder invocar o Rei Hrólf Kraki em King's Grave, em Midgard. Uma das lutas mais difíceis do jogo."
+            },
+            {
+                "nome_trofeu": "A Rainha Verdadeira",
+                "descricao": "Derrote Gná.",
+                "dica": "Gná, a nova Rainha das Valquírias, está escondida numa arena secreta em Muspelheim (acessível após a história). Vá preparado com o nível máximo de equipamento."
+            },
+            {
+                "nome_trofeu": "Ameaça Tripla",
+                "descricao": "Vença os três desafios de caça em Vanaheim.",
+                "dica": "Derrote os 3 monstros grandes nas Crateras de Vanaheim: o Dragão Caçador, o Cadáver Devorador e a Fera de Fogo."
+            },
+            {
+                "nome_trofeu": "Falhas Reconciliadas",
+                "descricao": "Melhore totalmente o Amuleto de Yggdrasil.",
+                "dica": "Encontre todos os 7 Fragmentos de Joia de Yggdrasil para desbloquear todos os 9 espaços do amuleto."
+            },
+            {
+                "nome_trofeu": "Funeral de um Amigo",
+                "descricao": "Compareça ao funeral.",
+                "dica": "Desbloqueia o final secreto do jogo. Após terminar a história, vá a Svartalfheim e fale com Lunda na taverna para iniciar o favor 'O Funeral de Brok'."
+            },
+            {
+                "nome_trofeu": "Líder Rebelde",
+                "descricao": "Devolva o Martelo da Rebelião.",
+                "dica": "Conclua o favor de Durlin em Svartalfheim, recuperando o martelo dele na área do Abismo de Nidavellir."
+            },
+            {
+                "nome_trofeu": "Novos Céus",
+                "descricao": "Liberte o Lyngbakr.",
+                "dica": "Conclua o favor de Mímir em Svartalfheim para libertar a criatura gigante presa na Baía da Recompensa cortando as suas correntes."
+            },
+            {
+                "nome_trofeu": "Foi um Bom Dia",
+                "descricao": "Recupere Mardöll.",
+                "dica": "Complete a missão secundária de Freya em Vanaheim (O Casamento de Freya) para recuperar a sua espada de casamento."
+            },
+            {
+                "nome_trofeu": "Espécies Invasoras",
+                "descricao": "Conclua todas as Caçadas na Cratera.",
+                "dica": "Elimine todas as presas e monstros de caça listados nos favores da grande Cratera escondida ao norte de Vanaheim."
+            },
+            {
+                "nome_trofeu": "Melhores Amigos",
+                "descricao": "Acaricie o Speki e a Svanna.",
+                "dica": "Conclua o favor 'Instintos Animais' eliminando todos os acampamentos de saqueadores em Midgard. Depois, volte ao trenó e interaja com os lobos."
+            },
+            {
+                "nome_trofeu": "Lugar de Direito",
+                "descricao": "Devolva todos os Lindworms a Ratatoskr.",
+                "dica": "Fale com Ratatoskr na Casa de Sindri para pegar a armadilha e encontre as 6 Lindworms escondidas nas fendas de Yggdrasil."
+            },
+            {
+                "nome_trofeu": "Pura de Coração",
+                "descricao": "Devolva os Cervos das Estações.",
+                "dica": "Encontre os 4 Cervos das Estações perdidos na área da Cratera de Vanaheim e mande-os de volta para a Árvore do Mundo."
+            },
+            {
+                "nome_trofeu": "Proprovações de Fogo",
+                "descricao": "Conclua os Desafios do Cadinho de Muspelheim.",
+                "dica": "Encontre as duas metades da semente de Muspelheim para abrir o reino e complete todas as 15 arenas e desafios do Cadinho."
+            },
+            {
+                "nome_trofeu": "Prontidão de Combate",
+                "descricao": "Melhore totalmente uma arma.",
+                "dica": "Suba o nível do Machado Leviatã, das Lâminas do Caos ou da Lança Draupnir até o nível máximo (Nível 9)."
+            },
+            {
+                "nome_trofeu": "O Colecionador",
+                "descricao": "Colete todas as Relíquias e Punhos de Espada.",
+                "dica": "Consiga todas as 14 relíquias utilizáveis em combate. Muitas são fabricadas na loja coletando páginas perdidas ou derrotando bosses como o Rei Berserker."
+            },
+            {
+                "nome_trofeu": "Gritos de Guerra",
+                "descricao": "Encontre todos os Corvos de Odin.",
+                "dica": "Destrua todos os 48 corvos espectrais verdes de Odin espalhados pelos reinos e depois abra todos os baús na Árvore dos Corvos em Niflheim."
+            },
+            {
+                "nome_trofeu": "Lembranças Ocultas",
+                "descricao": "Melhore totalmente uma Árvore de Habilidades.",
+                "dica": "Gaste XP para liberar todas as habilidades de Kratos com uma das armas e conclua os desafios de maestria para colocar um mod de dano na habilidade."
+            },
+            {
+                "nome_trofeu": "Dívida de Sangue",
+                "descricao": "Encontre todas as Lágrimas de Hel.",
+                "dica": "Feche todas as 6 fendas dimensionais de Hel que aparecem nos reinos durante e após os eventos da história principal."
+            },
+            {
+                "nome_trofeu": "O Guardião",
+                "descricao": "Encontre todos os Olhos de Odin.",
+                "dica": "Este troféu é desbloqueado em conjunto com a eliminação total dos 48 corvos de Odin e o confronto com a Guardiã dos Corvos."
+            },
+            {
+                "nome_trofeu": "O Caminho do Guerreiro",
+                "descricao": "Adquira todos os Ataques Rúnicos.",
+                "dica": "Você precisa encontrar todos os ataques rúnicos leves e pesados para o Machado, as Lâminas e a Lança dentro dos baús lendários (dourados)."
+            },
+            {
+                "nome_trofeu": "Oração ao Pai de Todos",
+                "descricao": "Conclua todas as Caçadas ao Tesouro.",
+                "dica": "Encontre os 10 mapas de tesouro roxos no chão e cave o ponto exato da recompensa de cada um deles seguindo a dica da imagem do mapa."
+            },
+            {
+                "nome_trofeu": "Um Encontro de Almas",
+                "descricao": "Liberte as almas dos Berserkers.",
+                "dica": "Consiga este troféu eliminando pelo menos metade das lápides de Berserkers encontradas pelos Nove Reinos."
+            },
+            {
+                "nome_trofeu": "Raízes Profundas",
+                "descricao": "Conclua a história secundária das Sementes de Yggdrasil.",
+                "dica": "Obtenha todas as sementes que dão acesso aos portais místicos trancados de reinos alternativos na loja de Sindri."
+            },
+            {
+                "nome_trofeu": "O Julgamento",
+                "descricao": "Derrote o Fantasma de Alfeim.",
+                "dica": "Troféu relacionado à história principal. Derrote o chefe do templo dos Elfos de Luz em Alfeim."
+            },
+            {
+                "nome_trofeu": "Besta Solta",
+                "descricao": "Derrote o Lobo Gigante.",
+                "dica": "Troféu relacionado à história principal. Derrote o grande lobo Gram em Helheim."
+            },
+            {
+                "nome_trofeu": "Acerto de Contas",
+                "descricao": "Derrote Heimdall.",
+                "dica": "Troféu relacionado à história principal. Derrote Heimdall usando os poderes de explosão da sua Lança Draupnir."
+            },
+            {
+                "nome_trofeu": "O Preço da Vitória",
+                "descricao": "Derrote o Urso.",
+                "dica": "Troféu relacionado à história principal. Desbloqueado logo no início após a dramática luta de Kratos contra o urso na floresta."
+            },
+            {
+                "nome_trofeu": "O Retorno do Rei",
+                "descricao": "Assista ao encerramento definitivo.",
+                "dica": "Conclua a missão pós-créditos visitando os remanescentes de Asgard caídos nos outros reinos."
             }
         ]
     }

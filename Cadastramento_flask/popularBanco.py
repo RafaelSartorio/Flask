@@ -19,19 +19,26 @@ def popular_sistema(caminho_json):
     conm = sqlite3.connect(os.path.join(pasta_atual, "Users.db"))
     cursor = conm.cursor()
 
-    print("Iniciando a importação (mantendo os dados existentes)...")
+    print("Iniciando a importação e atualização do banco...")
 
-    # Loop principal pelos jogos do JSON
     for dados_jogo in lista_de_jogos:
-        # NOVO: Verifica se o jogo já está cadastrado pelo nome
+        # Verifica se o jogo já existe
         cursor.execute("SELECT id FROM jogos WHERE nome = ?", (dados_jogo["nome"],))
         jogo_existente = cursor.fetchone()
 
         if jogo_existente:
-            print(f"⚠️ O jogo '{dados_jogo['nome']}' já existe no banco. Pulado para evitar duplicados.")
-            continue # Pula para o próximo jogo do JSON, sem cadastrar de novo
+            jogo_id = jogo_existente[0]
+            print(f"🔄 O jogo '{dados_jogo['nome']}' já existe. Atualizando capa e sinopse...")
+            
+            # CORREÇÃO: Atualiza a capa e a sinopse do jogo que já está no banco!
+            cursor.execute("""
+                UPDATE jogos 
+                SET capa = ?, sinopse = ? 
+                WHERE id = ?
+            """, (dados_jogo["capa"], dados_jogo["sinopse"], jogo_id))
+            continue 
 
-        # Se o jogo não existe, cadastra ele normalmente
+        # Se o jogo for inédito (como o Ragnarök), cadastra do zero
         print(f"🆕 Cadastrando novo jogo: {dados_jogo['nome']}...")
         cursor.execute("""
             INSERT INTO jogos (nome, sinopse, capa) 
@@ -40,7 +47,6 @@ def popular_sistema(caminho_json):
         
         jogo_id = cursor.lastrowid
 
-        # Prepara e insere as conquistas desse novo jogo
         lista_final = []
         for t in dados_jogo["conquistas"]:
             lista_final.append((jogo_id, t["nome_trofeu"], t["descricao"], t["dica"]))
@@ -54,7 +60,10 @@ def popular_sistema(caminho_json):
 
     conm.commit()
     conm.close()
-    print("\n🎉 Processo concluído! Os jogos novos foram adicionados com sucesso.")
+    print("\n🎉 Tudo pronto! Capas corrigidas e jogos novos adicionados com sucesso.")
+
+
+
 
 if __name__ == "__main__":
     popular_sistema("jogos.json")
