@@ -56,3 +56,4 @@ Certifique-se de ter o **Python 3** instalado em sua máquina.
    ```bash
    git clone [https://github.com/RafaelSartorio/Flask.git](https://github.com/RafaelSartorio/Flask.git)
    cd Flask
+
