@@ -42,18 +42,3 @@ O banco de dados relacional `Users.db` opera com quatro entidades principais est
 * `jogos`: Títulos cadastrados no ecossistema (Nome, Sinopse e URL da Capa).
 * `conquistas`: Troféus vinculados a um jogo específico (ID do Jogo, Nome, Descrição e Dica).
 * `usuario_conquistas`: Tabela intermediária de relacionamento Muitos-para-Muitos para salvar quais troféus específicos cada CPF obteve.
-
----
-
-## 🚀 Como Executar o Projeto Localmente
-
-### Pré-requisitos
-Certifique-se de ter o **Python 3** instalado em sua máquina.
-
-### Passo a Passo
-
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/RafaelSartorio/Flask.git](https://github.com/RafaelSartorio/Flask.git)
-   cd Flask
-
