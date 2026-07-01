@@ -1,10 +1,12 @@
 from flask import Flask, redirect, render_template, request, session, url_for
 from dataBase import Inicializer_db, SalvarBanco, buscarBanco
 from werkzeug.security import generate_password_hash, check_password_hash
+import sqlite3
 
 app = Flask(__name__)
 
 app.secret_key = "coloque_uma_chave_criptografica_aqui_super_segura"
+
 Inicializer_db()
 
 
@@ -12,7 +14,66 @@ Inicializer_db()
 def tela_dashboard():
     if "usuario_logado" not in session:
         return redirect(url_for('TelaLogin'))
-    return render_template("dashboard.html", nome=session["nome_usuario"], cpf=session["usuario_logado"])
+    
+    pesquisa = request.args.get("pesquisa","")
+
+    conm = sqlite3.connect("Users.db")
+    cursor = conm.cursor()
+
+    if pesquisa:
+        cursor.execute("SELECT id, nome, sinopse, capa FROM jogos WHERE nome LIKE ?", (f"%{pesquisa}%",))
+    else:
+        cursor.execute("SELECT id, nome, sinopse, capa FROM jogos")
+
+        jogos_finais = []
+    for linha in cursor.fetchall():
+        jogos_finais.append({
+            "id": linha[0],
+            "nome": linha[1],
+            "sinopse": linha[2],
+            "capa": linha[3]
+        })
+
+    conm.close()
+    
+    return render_template("dashboard.html", 
+                           nome=session.get("nome_usuario", "Usuário"), 
+                           cpf=session["usuario_logado"], 
+                           jogos=jogos_finais,
+                           termo_pesquisado=pesquisa)
+
+
+@app.route("/jogo/<int:jogo_id>")
+def tela_jogo(jogo_id):
+    if "usuario_logado" not in session:
+        return redirect(url_for('TelaLogin'))
+
+    conm = sqlite3.connect("Users.db")
+    cursor = conm.cursor()
+
+    cursor.execute("SELECT id, nome, sinopse, capa FROM jogos WHERE id = ?", (jogo_id,))
+    linha_jogo = cursor.fetchone()
+    
+    if not linha_jogo:
+        conm.close()
+        return "Jogo não encontrado", 404
+        
+    jogo = {"id": linha_jogo[0], "nome": linha_jogo[1], "sinopse": linha_jogo[2], "capa": linha_jogo[3]}
+
+    cursor.execute("SELECT id, nome_trofeu, descricao, dica FROM conquistas WHERE jogo_id = ?", (jogo_id,))
+    lista_conquistas = []
+    for linha in cursor.fetchall():
+        lista_conquistas.append({
+            "id": linha[0],
+            "nome": linha[1],
+            "descricao": linha[2],
+            "dica": linha[3]
+        })
+
+    conm.close()
+    
+    return render_template("jogo.html", jogo=jogo, trofeus=lista_conquistas, obtidos=[])
+
 
 @app.route("/")
 def cadastroUsuario():
@@ -27,9 +88,8 @@ def SalvarUser():
     if cpfUser and nameUser and passwordUser:
         passwordUserEnconder = generate_password_hash(passwordUser)
         SalvarBanco(cpfUser, nameUser, passwordUserEnconder)
-        # Opcional: Você pode mudar isso para redirecionar para o login após cadastrar!
-        # return redirect(url_for('TelaLogin'))
-        return "Usuário criado com sucesso"
+
+        return redirect(url_for('TelaLogin')) 
     
     return "Digite os dados que foram solicitados"
 

@@ -1,0 +1,36 @@
+[
+    {
+        "nome": "God of War (2018)",
+        "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLyoWLSArRUpS_nkUTOsoJwKdTanS-MCYl8TcLwyjzLg&s=10",
+        "sinopse": "Kratos vive agora no reino dos deuses e monstros nórdicos. Ao lado de seu filho Atreus, ele deve se aventurar por reinos brutais para cumprir uma promessa pessoal e espalhar as cinzas de sua falecida esposa no pico mais alto de todos os reinos.",
+        "conquistas": [
+            {
+                "nome_trofeu": "Pai e Filho",
+                "descricao": "Obtenha todos os outros troféus.",
+                "dica": "Essa é a Platina! Você precisa conquistar todos os outros 36 troféus do jogo para desbloqueá-la."
+            },
+            {
+                "nome_trofeu": "A Jornada Começa",
+                "descricao": "Defenda sua casa do Estranho.",
+                "dica": "Troféu relacionado à história. Impossível perder. Apenas vença a luta contra o Baldur no início do jogo."
+            }
+        ]
+    },
+    {
+        "nome": "The Witcher 3: Wild Hunt",
+        "capa": "https://www.google.com/imgres?q=the%20witcher%203capa%20&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fpt%2F0%2F06%2FTW3_Wild_Hunt.png&imgrefurl=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FThe_Witcher_3%3A_Wild_Hunt&docid=5bQuL0vuwqVD0M&tbnid=kGNG9sJo4Ln1RM&vet=12ahUKEwipjpKN_7GVAxWdGbkGHeGiFd0QnPAOegUIrgEQAA..i&w=400&h=500&hcb=2&ved=2ahUKEwipjpKN_7GVAxWdGbkGHeGiFd0QnPAOegUIrgEQAA",
+        "sinopse": "Geralt de Rívia, um caçador de monstros, procura sua filha adotiva Ciri, que está fugindo da temível Caçada Selvagem através de reinos devastados pela guerra.",
+        "conquistas": [
+            {
+                "nome_trofeu": "Geralt: O Profissional",
+                "descricao": "Conclua todos os contratos de monstros.",
+                "dica": "Foque em evoluir os sinais de Quen e Axii para facilitar as lutas mais difíceis."
+            },
+            {
+                "nome_trofeu": "Passou no Teste",
+                "descricao": "Conclua o jogo na dificuldade 'Marcha da Morte'.",
+                "dica": "Sempre use óleos nas lâminas e abuse da esquiva lateral em vez do rolamento."
+            }
+        ]
+    }
+]
